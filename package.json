@@ -1,0 +1,20 @@
+{
+  "name": "welfordbouquet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.4",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "gulp": "^4.0.1"
+  }
+}

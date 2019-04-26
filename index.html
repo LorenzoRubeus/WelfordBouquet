@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+		<link rel="stylesheet" href="assets/CSS/style.css">
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<title>Bouquet</title>
+	</head>
+	<body>
+	
+		<div id="overlay-fullscreen">
+			<p><i>Press anywhere to close the picture.</i></p>
+		</div>
+		<div id="zoom-favorite-1" class="div-zoom-favorite">
+			<img src="assets/img/favorite1.jpg" alt="Favorite 1">
+		</div>
+		<div id="zoom-favorite-2" class="div-zoom-favorite">
+			<img src="assets/img/favorite2.jpg" alt="Favorite 2">
+		</div>
+		<div id="zoom-favorite-3" class="div-zoom-favorite">
+			<img src="assets/img/favorite3.jpg" alt="Favorite 3">
+		</div>
+		<div id="zoom-favorite-4" class="div-zoom-favorite">
+			<img src="assets/img/favorite4.jpg" alt="Favorite 4">
+		</div>
+	
+		<header>
+			<div id="div-website-name-top">
+				<h3>WELFORD BOUQUET</h3>
+			</div>
+			<div id="div-nav-container">
+				<nav id="nav-top">
+					<a href="#" id="searchLens-icon"><i class="fas fa-search"></i></a>
+					<a href="#">HOME</a>
+					<a href="#">SHOP</a>
+					<a href="#">OUR STORY</a>
+					<a href="#">EXHIBITIONS</a>
+					<a href="#">COMMISSIONS</a>
+					<a href="#">BLOG</a>
+					<a href="#" id="nav-contact-top">CONTACTS</a>
+					<a href="#" id="basket-icon"><i class="fas fa-shopping-basket"></i></a>
+				</nav>
+				
+				<div id="list-nav-mobile" style="display: none;">
+					<ul class="menu" id="dropdown-content">
+						<li><a href="#" class="linkNav">HOME</a></li>
+						<li><a href="#" class="linkNav">SHOP</a></li>
+						<li><a href="#" class="linkNav">BASKET</a></li>
+						<li><a href="#" class="linkNav">OUR STORY</a></li>
+						<li><a href="#" class="linkNav">EXHIBITIONS</a></li>
+						<li><a href="#" class="linkNav">COMMISSIONS</a></li>
+						<li><a href="#" class="linkNav">BLOG</a></li>
+						<li><a href="#" class="linkNav">CONTACT</a></li>
+						<li><a href="#" class="linkNav">FAQ</a></li>
+						<li><a href="#" class="linkNav">DELIVERY &amp; RETURNS</a></li>
+						<li><a href="#" class="linkNav">TERMS &amp; CONDITION</a></li>
+					</ul>
+				</div>
+				
+				<div id="icon-mobile">
+					<a href="#" id="icon-nav"><i class="fa fa-bars"></i></a>
+				</div>
+			</div>
+			
+			<div id="logo-mobile" style="display: none;">
+				<img src="assets/img/logo.png" alt="Logo">
+			</div>
+		</header>
+		
+		<div id="container">
+			<div id="bigger-images">
+				<div id="div-bigger-image-left">
+					<img id="bigger-image-left" src="assets/img/amy-shamblen-662202-unsplash.jpg" alt="Bouquet">
+					<div id="hover-state-bigger-left" style="display: none; opacity: 0;"></div>
+					<div class="div-text-bigger-images" id="div-text-bigger-images-1">
+						<h2><strong>Text 1</strong></h2>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<a href="#" class="primary-btn">Discover More</a>
+					</div>
+				</div>
+				
+				<div id="div-bigger-image-right">
+					<img id="bigger-image-right" src="assets/img/bigger-img-right.png" alt="Bouquet">
+					<div id="hover-state-bigger-right" style="display: none; opacity: 0"></div>
+					<div class="div-text-bigger-images" id="div-text-bigger-images-2">
+						<h2><strong>Text 2</strong></h2>
+						<p>Lorem ipsum dolor sit amet.</p>
+						<a href="#" class="primary-btn">Discover More</a>
+					</div>
+				</div>
+			</div>
+			
+			<div id="medium-images">
+				<div id="div-medium-image-left">
+					<img id="medium-image-left" src="assets/img/mediumleft.jpg" alt="Bouquet">
+					<div class="paragraph-medium-image">
+						<div class="text-paragraph-medium">
+							<span>
+								<p class="title-inner-div-image"><b>THE MAKING</b></p>
+								<p class="secondary-text">Our yarn is 100% British.</p>
+							</span>
+						</div>
+					</div>
+					
+					<div id="hover-state-medium-left" style="display: none; opacity: 0;"></div>
+					<div class="div-text-bigger-images" id="div-text-medium-left">
+						<p><b>THE MAKING</b></p>
+						<p>Our yarn is 100% British.</p>
+						<a href="#" class="primary-btn">Discover More</a>
+					</div>
+					
+				</div>
+				
+				<div id="div-medium-image-right">
+					<img id="medium-image-right" src="assets/img/mediumright.jpg" alt="Bouquet">
+					<div class="paragraph-medium-image">
+						<div class="text-paragraph-medium">
+							<span>
+								<p class="title-inner-div-image"><b>COMMISSIONS</b></p>
+								<p class="secondary-text">Furnishing &amp; upholstery.</p>	
+							</span>
+						</div>
+					</div>
+					
+					<div id="hover-state-medium-right" style="display: none; opacity: 0;"></div>
+					<div class="div-text-bigger-images" id="div-text-medium-right">
+						<p><b>COMMISSIONS</b></p>
+						<p>Furnishing &amp; upholstery.</p>	
+						<a href="#" class="primary-btn">Discover More</a>
+					</div>
+				</div>
+				
+				<div id="div-medium-image-center">
+					<img id="medium-image-center" src="assets/img/mediumcenter.jpg" alt="Bouquet">
+					<div class="paragraph-medium-image">
+						<div class="text-paragraph-medium">
+							<span>
+								<p class="title-inner-div-image"><b>OUR STORY</b></p>
+								<p class="secondary-text">A family run business.</p>
+							</span>
+						</div>
+					</div>
+					
+					<div id="hover-state-medium-center" style="display: none; opacity: 0;"></div>
+					<div class="div-text-bigger-images" id="div-text-medium-center">
+						<p><b>OUR STORY</b></p>
+						<p>A family run business.</p>
+						<a href="#" class="primary-btn">Discover More</a>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+			<div id="containerFavorites">
+				<div id="titleSection">
+					<h3>OUR FAVORITES</h3>
+					<p id="desktop-second-text" class="secondary-text"><i>Lorem ipsum dolor sit amet</i></p>
+					<p id="mobile-favorite-second-text" class="secondary-text"><i>Click on a picture to zoom it.</i></p>
+				</div>
+				<div id="favorite-images-container">
+					<div id="favorite-images-left">
+						<div id="favorite-image-1" class="favorite-images">
+						
+							<img src="assets/img/favorite1.jpg" alt="Bouquet">
+							<div class="div-price-favorite">
+								<p class="price-name-favorite"><b>WEST CLIFF</b></p>
+								<p class="price-p"><del>£ 290.00</del><br/>£ 250.00</p>
+							</div>
+							
+						</div>
+						
+						<div id="favorite-image-2" class="favorite-images">
+							<img src="assets/img/favorite2.jpg" alt="Bouquet">
+							<div class="div-price-favorite">
+								<p class="price-name-favorite"><b>ESK</b></p>
+								<p class="price-p">£ 110.00<br/><del style="visibility: hidden">£ 0.00</del></p>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div id="favorite-images-right">
+						<div id="favorite-image-3" class="favorite-images">
+							<img src="assets/img/favorite3.jpg" alt="Bouquet">
+							<div class="div-price-favorite">
+								<p class="price-name-favorite"><b>SANDSEND</b></p>
+								<p class="price-p">£ 360.00<br/><del style="visibility: hidden">£ 0.00</del></p>
+							</div>
+						</div>
+						
+						<div id="favorite-image-4" class="favorite-images">
+							<img src="assets/img/favorite4.jpg" alt="Bouquet">
+							<div class="div-price-favorite">
+								<p class="price-name-favorite"><b>WEST CLIFF CUSHION</b></p>
+								<p class="price-p">£ 250.00<br/><del style="visibility: hidden">£ 0.00</del></p>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		<div id="container-footer">
+			<nav id="nav-bottom">
+				<a href="#">FAQ</a>
+				<a href="#">DELIVERY &amp; RETURNS</a>
+				<a href="#">TERMS &amp; CONDITIONS</a>
+				<a href="#">CONTACT US</a>
+			</nav>
+			<div id="icons-footer">
+				<a href="#"><i class="fab fa-twitter-square"></i></a>
+				<a href="#"><i class="fab fa-facebook-square"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>
+			<div id="footer-text">
+				<p>COPYRIGHT 2019</p>
+				<i><b>Made in Yorkshire.</b></i>
+			</div>
+		</div>
+		
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
